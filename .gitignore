@@ -4,7 +4,7 @@ out/
 .env
 .env.local
 .env*.local
-public/uploads/
+product-export.json
 *.tsbuildinfo
 next-env.d.ts.bak
 .DS_Store
