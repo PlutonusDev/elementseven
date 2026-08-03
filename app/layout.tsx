@@ -9,7 +9,7 @@ const space = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" });
 export const metadata: Metadata = {
   metadataBase: new URL(appUrl()),
   title: {
-    default: "Element Seven | Online Vape Store Australia",
+    default: "Element Seven Australia",
     template: "%s - Element Seven Australia",
   },
   description:

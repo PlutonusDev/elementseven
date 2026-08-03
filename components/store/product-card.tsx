@@ -91,11 +91,11 @@ export function ProductCard({ product, locked = false }: { product: ProductCardD
           {product.brand}
         </p>
         <p className="mt-1 text-sm leading-snug font-medium group-hover:underline">
-          {product.name}
+          {locked ? "Approval Required" : product.name}
         </p>
         <div className="mt-auto flex items-end justify-between pt-3">
           {locked ? (
-            <p className="text-[13px] font-medium text-slate">Sign in &amp; get approved to view</p>
+            <p className="text-[13px] font-medium text-slate">Sign in to view</p>
           ) : (
             <p className="font-display text-xl font-black tabular-nums">
               {hasRange && <span className="mr-1 text-xs font-normal text-slate">from</span>}

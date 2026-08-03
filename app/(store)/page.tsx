@@ -62,12 +62,12 @@ export default async function HomePage() {
         <div className="relative mx-auto grid w-full max-w-6xl items-center gap-10 px-4 py-14 lg:grid-cols-[1.15fr_1fr]">
           <div>
             <h1 className="max-w-xl font-display text-5xl leading-[0.95] font-black tracking-tight sm:text-6xl">
-              Massive Puffs.
+              <span className="text-outline-paper text-amber">Premium</span>
               <br />
-              <span className="text-outline-paper text-amber">Unrivaled Flavour.</span>
+              Pod Hardware
             </h1>
             <p className="mt-7 max-w-md text-[15px] leading-relaxed text-paper/75">
-              Ditch the messy refills and burnt coils. From pocket-sized 9K ingots to powerhouse 50K puff monsters, we stock the longest-lasting, hardest-hitting disposables on the market. 100% authentic, lab-verified, and ready to vape.
+              Explore our curated range of authentic pod devices and essential accessories. Built for consistency, simplicity, and effortless everyday use.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link href="/products" className={buttonClass("amber", "lg")}>
