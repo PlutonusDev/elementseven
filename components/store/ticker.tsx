@@ -5,11 +5,11 @@ import { useEffect, useRef } from "react";
 const ITEMS = [
   { symbol: "🚚", label: "Free shipping on orders over $195" },
   { symbol: "⚡", label: "Same-day dispatch before 2pm" },
-  { symbol: "🧪", label: "Shop bulk disposables" },
+  { symbol: "🧪", label: "Highest quality products" },
   { symbol: "🔒", label: "Secure checkout" },
   { symbol: "🔞", label: "18+ only" },
   { symbol: "🦘", label: "Australian-owned and operated" },
-  { symbol: "🔥", label: "Massive puffs, unrivaled flavour" },
+  { symbol: "🔥", label: "Biggest range, best prices" },
 ];
 
 const STRIP = [...ITEMS, ...ITEMS, ...ITEMS];
